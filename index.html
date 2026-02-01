@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs Rahasia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="login-section">
+            <h1>Akses Terbatas</h1>
+            <p>Untuk melihat gambar muka saya, harus memasuki kata sandi-nya.</p>
+            
+            <div class="input-group">
+                <input type="password" id="passwordInput" placeholder="Masukkan kata sandi...">
+                <button onclick="checkPassword()">Buka</button>
+            </div>
+            <p id="error-msg" class="error"></p>
+        </div>
+
+        <div id="image-section" class="hidden">
+            <h2>Akses Diberikan</h2>
+            <img src="https://via.placeholder.com/400x400?text=FOTO+RAHASIA" alt="Muka Saya" class="secret-img">
+            <br>
+            <button onclick="location.reload()" class="btn-back">Kunci Kembali</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
