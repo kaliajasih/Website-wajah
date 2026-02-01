@@ -6,7 +6,7 @@ function checkPassword() {
 
     // Password yang benar (Hardcoded untuk contoh sederhana)
     // Dalam praktik nyata, validasi harus dilakukan di server (Backend)
-    const correctPassword = "mukasaya"; 
+    const correctPassword = "cexistoreteam"; 
 
     if (input === correctPassword) {
         // Jika benar, sembunyikan login, tampilkan gambar
