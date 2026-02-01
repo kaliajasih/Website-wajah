@@ -1,0 +1,93 @@
+/* Reset CSS dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* Dark Blue / Navy */
+    color: #e2e8f0; /* Teks putih agak abu agar nyaman di mata */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #1e293b; /* Biru yang sedikit lebih terang untuk kartu */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 90%;
+    border: 1px solid #334155;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    color: #60a5fa; /* Aksen biru muda */
+}
+
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #475569;
+    background-color: #0f172a;
+    color: white;
+    outline: none;
+}
+
+input:focus {
+    border-color: #60a5fa;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-back {
+    margin-top: 20px;
+    background-color: #ef4444;
+}
+
+.hidden {
+    display: none;
+}
+
+.secret-img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 2px solid #60a5fa;
+}
+
+.error {
+    color: #ef4444;
+    font-size: 0.9rem;
+    min-height: 1.2em;
+}
